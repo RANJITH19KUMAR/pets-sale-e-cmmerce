@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    background-color:#e3f2fd;
+    animation: popIn 0.8s ease;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+}
+
+.navbar{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #bcd5ea;
+}
+h1{
+    color:#0a0a0a ;
+    margin-left: 40%;
+} 
+.navbar-link {
+    display: flex;
+    column-gap: 20px;
+ 
+}
+.navbar-link a{
+    color: #0a0a0a;
+    text-decoration: none;
+
+}
+.navbar-link a:hover{
+    color: rgb(242, 246, 250);
+    text-decoration: underline;
+}
+.navbar-menu-toggle{
+    display: block;
+    color:black;
+}
+.main{
+   display: flex;
+   padding: 17px;
+   column-gap: 10px;
+   margin-top: 30px;
+}
+.main h2{
+    margin-top: 40px;
+    margin-left: 15%;
+}
+.main p{
+    padding-left: 40px;
+    margin-top: 30%;
+}
+.main img{
+    width: 99%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.main img:active{
+    transform: scale(1);
+    opacity: 0.8;
+    transition: transform 0.2s, ease,box-shadow 0.3s ease;
+    cursor: pointer;
+   
+}
+.main button{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    padding: 10px;
+    display: flex;
+}
+
+.main-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0%;
+}
+
+
+.main p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 1.2;
+}
+.main-container{
+    display: flex;
+   text-align: center;
+    justify-content: space-between;
+}
+.container h3{
+    padding: 10px;
+}
+
+.main-container div{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 35px;
+    text-align: justify;
+    height: 90%;
+    align-items: center;
+}  
+ 
+.section{
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.section-container{
+    flex-basis: 20%;
+    width: 100%;
+    padding: 10px;
+    
+}
+.section-container img{
+ width: 280px;
+ height: 250px;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+.section-container img:active{
+    transform: scale(1);
+    opacity: 0.8;
+    transition: transform 0.2s, ease,box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    column-gap: 10px;
+}
+.section-container button{
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   margin-top: 10px;
+   top: 65%;
+   left: 55%;
+   border-radius: 5px;
+   animation: popIn 1s ease-out;
+   cursor: pointer;
+}
+.section-container button:hover{
+    background-color: #6b7183;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* footeer section*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #9db4c3;
+    border-radius: 5px;
+    color: #030303;
+}
+.footer-menu{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer-menu p{
+    text-align: justify;
+}
+.footer-section{
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.footer-contact{
+    line-height: 30px;
+    font-size: 20px;
+    column-gap: 5px;
+    text-align: justify;
+}
+.footer input{
+    width: 65%;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.footer button{
+    background-color: #030303;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color: #817575;
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* collection page*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.shop{
+    background-color: #ffffff;
+}
+.wrapper h2{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+input{
+    width: 550px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border-color: #000000;
+    text-align: left;
+
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 10px;
+
+    text-align: center;
+}
+.petname{
+    flex-basis: 20%;
+    width: 100%;
+    padding: 10px;
+}
+.petname img{
+    width: 280px;
+    height: 250px;
+    border-radius: 5px;
+    border-color: palevioletred;
+}
+.petname img:active{
+    transform: scale(1);
+    opacity: 0.8;
+    transition: transform 0.2s, ease,box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.petname button{
+    background-color: #817575;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+/* CONTACT PAGE*/
+.contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+}
+.contact i{
+    color: rgb(235, 59, 103);
+    
+}
+.icon i{
+    padding: 10px;
+    margin: 5px;
+    color: #0a0a0a;
+    text-align: center;
+}
+.contact input{
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    background-color:  rgb(208, 200, 200);
+}
+.contact button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    width: 10%;
+    cursor: pointer;
+    background-color: white;
+    color: #030303;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact button:hover{
+    text-decoration: underline;
+    color:blueviolet;
+}
+  
